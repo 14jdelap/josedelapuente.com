@@ -58,7 +58,7 @@ section {
 .imgcentered {
     padding-top: 20px;
     width: 100%; /*resizes the image to fit container size */
-    margin: auto 3px;
+    margin: auto;
 }
 
 .grid {
@@ -125,6 +125,11 @@ section ul li {
 
     header {
         border-bottom: 1px solid DFE1E1;
+    }
+
+    section {
+        margin: 0 10px;
+        font-family: Myriad Pro, Helvetica, sans-serif;
     }
 
 }

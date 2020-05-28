@@ -58,27 +58,16 @@ section {
 .imgcentered {
     padding-top: 20px;
     width: 100%; /*resizes the image to fit container size */
-    max-width: 629px;
-    display: block; /*Allows margin auto to work, as the default inline it doesn't*/
     margin: auto 3px;
 }
 
-.title{
-    margin-bottom: 20px;
-  }
-
-.subtitle{
-    margin-bottom: 10px;
-}
-
 .grid {
-    max-width: 840;
-    margin: 20px 0;
     display: grid;
     grid-template-columns: repeat(3, 220px);
     grid-template-rows: repeat(3, 220px);
     grid-gap: 10px;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .child {
@@ -117,7 +106,6 @@ section ul li {
     .flex {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .links {

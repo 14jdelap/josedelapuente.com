@@ -58,7 +58,7 @@ section {
 .imgcentered {
     padding-top: 20px;
     width: 100%; /*resizes the image to fit container size */
-    height: 100%
+    height: 100%;
     margin: auto 0;
 }
 

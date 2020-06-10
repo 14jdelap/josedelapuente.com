@@ -150,7 +150,7 @@ section ul li {
 
     .footer_top {
         align-self: flex-end;
-        padding: 15px 0;
+        padding: 20px 0;
         padding-right: 10px;
         color: gray;
     }
@@ -165,7 +165,8 @@ section ul li {
 
     .footer_li {
         align-items: flex-start;
-        padding: 15px 0;
+        padding: 20px 0 20px 20px;
+        list-style-type: none;
         border-top: 1px solid #DFE1E1;
         width: 100%;
     }

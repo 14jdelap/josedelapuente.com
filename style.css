@@ -51,7 +51,6 @@ a {
 
 a.list_link:hover {
     text-decoration: underline;
-    color: #400080;
 }
 
 .purple {
@@ -94,8 +93,22 @@ section {
     display: none;
 }
 
+section ul {
+    padding-left: 30px;
+}
+
 section ul li {
     line-height: 130%;
+    margin-bottom: 10px;
+}
+
+section ul li a, section a {
+    color: #005760;
+}
+
+section ul li:last-child {
+    line-height: 130%;
+    margin-bottom: 12.5px;
 }
 
 .hide_desktop {

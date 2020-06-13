@@ -68,11 +68,12 @@ section {
 }
 
 .substack {
-    max-height: 300px;
     padding-top: 20px;
     width: 100%; /*resizes the image to fit container size */
     max-height: 184px;
     margin: auto 0;
+    border: 1px solid #EEE;
+    background: white;
 }
 
 .grid {
